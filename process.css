@@ -1,0 +1,71 @@
+body{
+    background-color: black;
+}
+table{
+    color: white;
+    border: 3px solid white;
+    position: absolute;
+    top: 20%;
+    width: 70%;
+    left: 15%;
+    right: 15%;
+}
+th,tr,td{
+    border: 2px solid white;
+    text-align: center;
+    padding: 3px;
+}
+.sender{
+    color: white;
+    position: absolute;
+    left: 37%;
+    text-shadow: 2px 2px red;
+}
+.reciever{
+    position: absolute;
+    top: 48%;
+    color: white;
+    text-shadow: 1px 1px chartreuse;
+}
+.amount{
+    position: absolute;
+    top: 66%;
+    left: 12%;
+    color: white;
+    text-shadow: 1px 1px chartreuse;   
+}
+input{
+
+    margin-top: 57px;
+    padding: 15px;
+    width: 300px;
+    border: 3px solid black;
+    border-radius: 24px;
+    
+}
+input:hover{
+    box-shadow: 5px 5px 5px 0px chartreuse;
+}
+input[type="submit"]{
+    position: absolute;
+    border: 3px solid white;
+    left: 90px;
+    width: 100px;
+    padding: 10px;
+    background-color: black;
+    color: white;
+    font-weight: bold;
+    box-shadow: none;
+    
+}
+input[type="submit"]:hover{
+    background-color: chartreuse;
+    color: black;
+    font-weight: bold;
+    border-color: chartreuse;
+}
+form{
+    position: absolute;
+    top: 41%;
+    left: 37%;
+}

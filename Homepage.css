@@ -1,0 +1,120 @@
+body{
+    padding: 0;
+    margin: 0;
+    background-color: black;
+}
+
+.container{
+    position: relative;
+}
+.homeimage{
+    position: absolute;
+    left: 130px;
+    height: 75vh;
+    width:75%;
+    
+}
+.homeimg{
+    position: absolute;
+    left: 45%;
+    width: 718px;
+    height: 75vh;
+}
+.heading{
+    position: absolute;
+    top: 20px;
+    left: 10px;
+    color: white;
+    text-shadow: 2px 2px 0 red;
+}
+.shead{
+    color: chartreuse;
+    text-shadow: 0 0 5px darkblue;
+    font-size: 41px;
+    text-shadow: 2px 2px 0 black;
+}
+.govdiv{
+    position: absolute;
+    top: 81px;
+    left: 125px;
+}
+.gov{
+    position: absolute;
+    top: 900px;
+    border-radius: 50%;
+}
+.sologan{
+    position: absolute;
+    width: 600px;
+    top: 250px;
+}
+.s1{
+    position: absolute;
+    left: 50px;
+    color: white;
+    font-size: 41px;
+    text-shadow: 2px 2px 0 springgreen;
+}
+.s2{
+    position: absolute;
+    color: white;
+    font-size: 41px;
+    top: 50px;
+    left: 200px;
+    text-shadow: 2px 2px 0 springgreen;
+}
+.user{
+    position: absolute;
+    top: 75vh;
+    left: 10px;
+    
+   
+}
+.userimg{
+    height: 140px;
+    border-radius: 50%;
+}
+a{
+    text-decoration: none;
+    color: white;
+}
+a:hover{
+    color: springgreen;
+    text-shadow: 1px 1px 1px white;
+}
+.CAcc{
+    position: absolute;
+    top: 85vh;
+    left: 165px;
+
+}
+
+.transaction{
+    position: absolute;
+    top: 75vh;
+    left: 410px;
+}
+.transactionimg{
+    height: 140px;
+    border-radius: 50%;
+    border-color: 5px solid white;
+}
+.TRcc{
+    position: absolute;
+    top: 85vh;
+    left: 570px;
+}
+.transactionhis{
+    position: absolute;
+    top: 75vh;
+    left: 810px;
+}
+.transactionhisimg{
+    height: 140px;
+    border-radius: 50%;
+}
+.TRHIScc{
+    position: absolute;
+    top: 85vh;
+    left: 970px;
+}
